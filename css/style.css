@@ -115,7 +115,7 @@ section:nth-child(even) {
     position: relative;
     display: inline-block;
     padding: 0 20px;
-    background: var(--card-bg);
+    background: url('c:\Adnan\Portfolio\css\assets/images/hero-bg.jpg') no-repeat center center/cover;
     z-index: 1;
 }
 
