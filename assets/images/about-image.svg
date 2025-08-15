@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" style="background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);">
+  <defs>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#424242;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGrayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bdbdbd;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#e0e0e0" opacity="0.4"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background pattern -->
+  <rect width="600" height="500" fill="url(#dots)"/>
+  
+  <!-- Professional figure silhouette -->
+  <g transform="translate(80, 100)">
+    <!-- Head -->
+    <circle cx="60" cy="60" r="35" fill="url(#grayGradient)" stroke="#424242" stroke-width="2"/>
+    
+    <!-- Professional attire -->
+    <path d="M 25 90 Q 60 85 95 90 L 95 180 Q 60 185 25 180 Z" fill="url(#grayGradient)" stroke="#424242" stroke-width="2"/>
+    
+    <!-- Tie detail -->
+    <path d="M 55 95 L 65 95 L 62 130 L 58 130 Z" fill="url(#redGradient)"/>
+    
+    <!-- Arms -->
+    <ellipse cx="15" cy="130" rx="12" ry="25" fill="url(#grayGradient)" transform="rotate(-15 15 130)"/>
+    <ellipse cx="105" cy="130" rx="12" ry="25" fill="url(#grayGradient)" transform="rotate(15 105 130)"/>
+    
+    <!-- Hands pointing to expertise areas -->
+    <circle cx="5" cy="150" r="6" fill="url(#grayGradient)"/>
+    <circle cx="115" cy="150" r="6" fill="url(#grayGradient)"/>
+  </g>
+  
+  <!-- Experience timeline with major milestones -->
+  <g transform="translate(250, 120)">
+    <!-- Main timeline -->
+    <rect x="0" y="0" width="8" height="250" fill="url(#redGradient)" rx="4"/>
+    
+    <!-- 19+ Years badge -->
+    <g transform="translate(-40, -20)">
+      <rect x="0" y="0" width="90" height="35" rx="17" fill="url(#redGradient)"/>
+      <text x="45" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">19+ YEARS</text>
+      <text x="45" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">EXPERIENCE</text>
+    </g>
+    
+    <!-- Timeline milestones -->
+    <g>
+      <!-- Software Engineer -->
+      <circle cx="4" cy="40" r="8" fill="url(#redGradient)" stroke="white" stroke-width="2"/>
+      <rect x="20" y="25" width="120" height="30" rx="15" fill="url(#redGradient)"/>
+      <text x="80" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">Freelance Consultant</text>
+      <text x="80" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">2023-Present</text>
+      
+      <!-- Senior Engineer -->
+      <circle cx="4" cy="90" r="8" fill="url(#redGradient)" stroke="white" stroke-width="2"/>
+      <rect x="20" y="75" width="120" height="30" rx="15" fill="url(#lightGrayGradient)"/>
+      <text x="80" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#424242">Architect/Manager</text>
+      <text x="80" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#757575">2013-2022</text>
+      
+      <!-- Principal/Manager -->
+      <circle cx="4" cy="140" r="8" fill="url(#redGradient)" stroke="white" stroke-width="2"/>
+      <rect x="20" y="125" width="120" height="30" rx="15" fill="url(#lightGrayGradient)"/>
+      <text x="80" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#424242">Lead Developer</text>
+      <text x="80" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#757575">2009-2013</text>
+      
+      <!-- Consultant -->
+      <circle cx="4" cy="190" r="8" fill="url(#redGradient)" stroke="white" stroke-width="2"/>
+      <rect x="20" y="175" width="120" height="30" rx="15" fill="url(#lightGrayGradient)" opacity="0.9"/>
+      <text x="80" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#424242">Developer</text>
+      <text x="80" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#757575">2005-2008</text>
+    </g>
+  </g>
+  
+  <!-- Skill expertise areas -->
+  <g transform="translate(50, 300)">
+    <!-- Backend Development -->
+    <g>
+      <rect x="0" y="0" width="100" height="70" rx="10" fill="url(#redGradient)" opacity="0.9"/>
+      <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Backend</text>
+      <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Java • Spring</text>
+      <text x="50" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Microservices</text>
+      <text x="50" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">REST APIs</text>
+    </g>
+    
+    <!-- Frontend Development -->
+    <g transform="translate(120, 0)">
+      <rect x="0" y="0" width="100" height="70" rx="10" fill="url(#grayGradient)" opacity="0.9"/>
+      <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Frontend</text>
+      <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Angular • React</text>
+      <text x="50" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">TypeScript</text>
+      <text x="50" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">HTML/CSS</text>
+    </g>
+    
+    <!-- Cloud & DevOps -->
+    <g transform="translate(240, 0)">
+      <rect x="0" y="0" width="100" height="70" rx="10" fill="#ff9800" opacity="0.9"/>
+      <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Cloud &amp; DevOps</text>
+      <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">AWS • Azure</text>
+      <text x="50" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Docker • K8s</text>
+      <text x="50" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">CI/CD</text>
+    </g>
+    
+    <!-- Database -->
+    <g transform="translate(360, 0)">
+      <rect x="0" y="0" width="100" height="70" rx="10" fill="#2e7d32" opacity="0.9"/>
+      <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Database</text>
+      <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">Oracle • MySQL</text>
+      <text x="50" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">PostgreSQL</text>
+      <text x="50" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">MongoDB</text>
+    </g>
+  </g>
+  
+  <!-- Thought bubbles with key concepts -->
+  <g transform="translate(400, 50)">
+    <!-- Architecture bubble -->
+    <g>
+      <ellipse cx="80" cy="40" rx="60" ry="25" fill="white" stroke="url(#redGradient)" stroke-width="2" opacity="0.9"/>
+      <circle cx="65" cy="60" r="3" fill="url(#redGradient)"/>
+      <circle cx="55" cy="70" r="2" fill="url(#redGradient)"/>
+      <text x="80" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d32f2f">Architecture</text>
+      <text x="80" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#757575">Design Patterns</text>
+    </g>
+    
+    <!-- Innovation bubble -->
+    <g transform="translate(-50, 80)">
+      <ellipse cx="80" cy="40" rx="55" ry="25" fill="white" stroke="url(#grayGradient)" stroke-width="2" opacity="0.9"/>
+      <circle cx="95" cy="60" r="3" fill="url(#grayGradient)"/>
+      <circle cx="105" cy="70" r="2" fill="url(#grayGradient)"/>
+      <text x="80" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#424242">Innovation</text>
+      <text x="80" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#757575">Problem Solving</text>
+    </g>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.2">
+    <!-- Code symbols -->
+    <text x="30" y="50" font-family="monospace" font-size="24" fill="#d32f2f">{}</text>
+    <text x="520" y="450" font-family="monospace" font-size="20" fill="#757575">&lt;/&gt;</text>
+    <text x="480" y="30" font-family="monospace" font-size="18" fill="#424242">[]</text>
+    
+    <!-- Geometric shapes -->
+    <polygon points="20,400 35,380 50,400 35,420" fill="url(#redGradient)"/>
+    <circle cx="550" cy="100" r="8" fill="url(#grayGradient)"/>
+    <rect x="10" y="250" width="15" height="15" fill="url(#redGradient)" transform="rotate(45 17.5 257.5)"/>
+  </g>
+</svg>
